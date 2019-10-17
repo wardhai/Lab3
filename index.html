@@ -3,19 +3,20 @@
 <head>
   <title>HTML Form Elements</title>
   <meta charset="utf-8" />
-  <meta name="viewport" />
+  <meta name="viewport" content="width=1000"/>
   <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
 </head>
 <body>
 <main id="content">
   <form method="get" action="#null">
-    <h1>Secret Diabetes Newsletter</h1>
-    <p>
+    <h1 id= "text">Secret Diabetes Newsletter</h1>
+    <p id= "p">
       Sign up and learn 5 secrets to fight Diabetes!
     </p>
     <ol>
       <li id="input-email">
-        <label for="email">Email</label>
+        <label for="email" id="emailtext">Email</label>
         <input type="email" name="email" id="email" pattern="^.+@.+$" />
       </li>
       <li id="input-age-verification">

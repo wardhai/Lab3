@@ -21,7 +21,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Comfortaa', cursive; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -202,3 +202,67 @@ label {
   display: block;
 }
 
+@media only screen and (min-width: 500px) {
+  body {
+    font-family: 'Comfortaa', cursive;
+    background-color: #e0e0e0;
+  }
+  #text {
+    text-align: center;
+    font-size: 4em;
+    padding: .5em .1em .5em .1em;
+    line-height: .8em;
+    color: #aba6a6;
+  }
+  #p {
+    text-align: center;
+    font-size: 2em;
+    padding: .5em .1em 1em .1em;
+    line-height: .8em;
+	color: #968686;
+  }
+  #input-email {
+    text-align: center;
+    font-size: 1em;
+	color: #7d7a7a;
+	border: none;
+    border-radius: 1em;
+	padding: 15px 32px;
+  }
+  #emailtext {
+    padding: 0em 0em .4em 0em;;
+  }
+  #email {
+    width: 80%;
+	 height: 2em;
+    margin: .1em 0em 1em 0em;
+    background-color: #aba6a6;
+	
+  }
+  #input-age-verification {
+    text-align: center;
+    font-size: 1em;
+	color: #9a9ea6;
+  }
+  input[type=checkbox] {
+    height: 2em;
+    width: 2em;
+    margin: 1em;
+	color: #b6c1d4;
+  }
+  #input-submit {
+    text-align: center;
+  }
+  input[type=submit] {
+    background-color: #b8abab;
+    border: none;
+    border-radius: 1em;
+    color: #d1c2c2;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+    margin: .5em;
+  }
+}
